@@ -1,0 +1,97 @@
+body {
+    background-color: #00705c !important;
+    color: white;
+}
+.navbar {
+    background-color: #005a4b;
+}
+.footer{
+    background-color: #005a4b;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.features .card {
+    background-color: #008b73;
+    color: white;
+    border: none;
+}
+.about-section {
+    padding: 50px 0;
+    background-color: #1a1a1a; 
+    color: #f8f9fa; 
+}
+
+.about-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.about-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffc107; 
+}
+
+.about-list-item {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.about-btn {
+    background-color: #dc3545; 
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 30px;
+}
+
+.about-btn:hover {
+    background-color: #b52b38; 
+    text-decoration: none;
+}
+
+.about-stats {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #343a40; 
+    border-radius: 10px;
+    color: #fff;
+}
+
+.stats-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffc107;
+}
+header {
+    background-image: url('back.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+#card {
+    background-color: #006a58; 
+    color: white; 
+    border: none; 
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 20px;
+}
+.custom-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
